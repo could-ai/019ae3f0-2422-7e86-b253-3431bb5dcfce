@@ -34,6 +34,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  share_plus: ^10.0.2  # For sharing love notes via WhatsApp
+  audioplayers: ^6.0.0  # For cute sounds on click
+  sensors_plus: ^6.0.0  # For shake detection to trigger random love notes
+  flutter_local_notifications: ^17.2.2  # For daily notifications and alerts
+  shared_preferences: ^2.3.2  # For saving favorite messages
+  path_provider: ^2.1.4  # For backing up notes to storage
 
 dev_dependencies:
   flutter_test:

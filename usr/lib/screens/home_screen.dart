@@ -4,6 +4,7 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   final List<Map<String, dynamic>> features = const [
+    {'icon': Icons.message, 'title': 'Love Messages', 'route': '/messages', 'color': Colors.green},
     {'icon': Icons.favorite, 'title': 'Love Notes', 'route': '/love_notes', 'color': Colors.red},
     {'icon': Icons.photo_album, 'title': 'Our Memories', 'route': '/gallery', 'color': Colors.blue},
     {'icon': Icons.local_dining, 'title': 'Date Night', 'route': '/date_night', 'color': Colors.orange},

@@ -3,6 +3,7 @@ import 'package:couldai_user_app/screens/home_screen.dart';
 import 'package:couldai_user_app/screens/love_notes_screen.dart';
 import 'package:couldai_user_app/screens/date_night_screen.dart';
 import 'package:couldai_user_app/screens/gallery_screen.dart';
+import 'package:couldai_user_app/screens/messages_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
         '/love_notes': (context) => const LoveNotesScreen(),
         '/date_night': (context) => const DateNightScreen(),
         '/gallery': (context) => const GalleryScreen(),
+        '/messages': (context) => const MessagesScreen(),
         // Add more routes for other features as we build them
       },
     );
